@@ -1,24 +1,49 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Intro from './components/intro';
+import {Route} from 'react-router-dom';
+import Personnal from './components/personnal';
+import Education from './components/education';
+import Interests from './components/interests';
+import Skills from './components/skills';
+import Training from './components/training';
+import Footer from './components/footer';
+
+import {useEffect, useState} from 'react'
 
 function App() {
+  
+
+  const [menu, setMenu] = useState(false);
+    useEffect(()=>{
+        const timer = setTimeout(()=>{
+            setMenu(true);
+
+
+        },13000) 
+        return () => clearTimeout(timer);
+
+    },[] )
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Intro/>
+      {menu &&
+    <div>
+      
+      <Route exact path="/" component={Personnal}/>
+      <Route exact path="/education" component={Education}/>
+      <Route exact path="/training" component={Training}/>
+      <Route exact path="/skills" component={Skills}/>
+      <Route exact path="/interests" component={Interests}/>
+      <Footer/>
+
+      
     </div>
+   
+}
+    </div>
+    
+      
   );
 }
 
