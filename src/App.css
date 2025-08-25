@@ -183,7 +183,7 @@ a:hover{color:var(--accent); text-decoration:wavy}
     padding: .4rem .6rem;
     gap: .3rem;
   }
- how .visit {
+  .visit {
     padding: .4rem .6rem;
     font-size: var(--fs-xxs);
   }
@@ -557,7 +557,7 @@ a:hover{color:var(--accent); text-decoration:wavy}
 }
 
 /* small helpers */
-.badge{ display:inline-block; padding:.25rem .5rem; border-radius:999px; background:rgba(255,255,255,.02); color:var(--muted) }
+.badge{ display:inline-block; padding:.25rem .5rem; border-radius:999px; background:rgba(255,255,255,.02); color:var(--primary) }
 
 /* ========== GLOBAL MOBILE OPTIMIZATIONS ========== */
 
@@ -627,12 +627,4 @@ a:hover{color:var(--accent); text-decoration:wavy}
   .footer .logo:hover {
     transform: none !important;
   }
-}
-
-/* LIGHT THEME */
-@media (prefers-color-scheme: light){
-  :root{ --bg: #f7f7fb; --text:#0f172a; --muted:#334155; --card:#ffffff; --border: rgba(2,6,23,.06) }
-  body{ background: radial-gradient(900px 500px at 10% -10%, #e7f5ff 0%, transparent 55%), var(--bg) }
-  .menu{ background: rgba(255,255,255,.9); color:var(--text) }
-  .card{ box-shadow: 0 4px 18px rgba(2,6,23,.06) }
 }
