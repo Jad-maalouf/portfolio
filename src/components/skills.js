@@ -1,85 +1,101 @@
-import React from 'react';
+import React from "react";
 const Skills = () => {
-    return ( <section>
-        <div className='skills-section'>
-            <div className='lang'><label className='under'>Languages</label>
-            <div className='lang-info'>
-                <ul className='info'>
-                    <li>Arabic <i>Fluent</i></li>
-                    <li>English <i>Fair</i></li>
-                    <li>Frensh <i>Fair</i></li>
-                </ul>
-            </div>
-            </div>
-            <div className='frontend'><label className='under'>Front-End | UI/UX </label>
-            <div className ='frontend-info'>
-                <ul className='info'>
-                    <li>Html5</li>
-                    <li>Css3</li>
-                    <li>JavaScript ES6</li>
-                    <li>React JS</li>
-                    <li>Bootstrap</li>
-                    <li>Responsive Web Design</li>
-                
-                </ul>
-            </div>
-            </div>
-            <div className='backend'><label className='under'>Back-End</label>
-            <div className='backend-info'>
-                <ul className='info'>
-                    <li>Node JS</li>
-                    <li>Express JS</li>
-                    <li>MySql Database</li>
-                    <li>RESTful APIs</li>
-                    <li>JSON Web Tokens</li>
-                </ul> 
-            </div>
-            </div>
-            
-            
-            
-            <div className='database'><label className='under'>Programming</label>
-            <div className='database-info'>
-                <ul className='info'>
-                    <li>Python (<i>Tkinter</i>)</li>
-                    <li>C++</li>
-                    <li>Java</li>
-                    <li>VHDL</li>
-                </ul>
-                    
-
-            </div>
-            </div>
-            <div className='it'><label className='under'>IT and Networking</label>
-            <div className='it-info'>
-                <ul className='info'>
-                    <li>Windows Server and its features.</li>
-                    <li>Vmware and HyperV Virtualization.</li>
-                    <li>CCNA Routing and Switching.</li>
-                    <li>Linux.</li>
-                </ul>
-            </div>
-            </div>
-            <div className='soft'><label className='under'>Soft Skills</label>
-            <div className='soft-info'>
-                <ul className='info'>
-                    <li>Communication</li>
-                    <li>Adaptability</li>
-                    <li>Leaderships</li>
-                    <li>Teamwork</li>
-                    <li>Collaboration</li>
-                    <li>Motivation</li>
-                    <li>Problem Solving</li>
-                </ul>
-            </div>
-            </div>
-            
-            
-            
+  return (
+    <section className="container section">
+      <h2>Skills & Expertise</h2>
+      <div className="skills-section">
+        <div className="frontend card">
+          <h3 className="under">Front-End Development</h3>
+          <div className="frontend-info">
+            <ul className="info">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript ES6+</li>
+              <li>React.js</li>
+              <li>TypeScript</li>
+              <li>Bootstrap & Material UI</li>
+              <li>Responsive Web Design</li>
+              <li>UI/UX Principles</li>
+            </ul>
+          </div>
         </div>
 
-        
-    </section> );
-}
- 
+        <div className="backend card">
+          <h3 className="under">Back-End Development</h3>
+          <div className="backend-info">
+            <ul className="info">
+              <li>ASP .Net core</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MSSQL and PostgreSQL Database</li>
+              <li>RESTful API Design</li>
+              <li>Swagger Documentation</li>
+              <li>JWT Authentication</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="database card">
+          <h3 className="under">Programming Languages</h3>
+          <div className="database-info">
+            <ul className="info">
+              <li>C#</li>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>C++</li>
+              <li>Java</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="it card">
+          <h3 className="under">Design Patterns</h3>
+          <div className="it-info">
+            <ul className="info">
+              <li>MVC</li>
+              <li>Clean architecture</li>
+              <li>Modular Monolith</li>
+              <li>Repository</li>
+              <li>Unit of work</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="lang card">
+          <h3 className="under">Languages</h3>
+          <div className="lang-info">
+            <ul className="info">
+              <li>
+                Arabic <em>(Native)</em>
+              </li>
+              <li>
+                English <em>(Professional)</em>
+              </li>
+              <li>
+                French <em>(Conversational)</em>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="soft card">
+          <h3 className="under">Soft Skills</h3>
+          <div className="soft-info">
+            <ul className="info">
+              <li>Effective Communication</li>
+              <li>Leadership experience</li>
+              <li>Problem Solving</li>
+              <li>Critical Thinking</li>
+              <li>Adaptability</li>
+              <li>Collaboration talent</li>
+              <li>Computer Proficiency</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 export default Skills;

@@ -1,13 +1,18 @@
-import React from 'react';
-
+import React from "react";
 
 const Interests = () => {
-    return ( <section>
-        <div className='interest'>-Active member in Lebanese Red Cross since 2017.</div>
-        <div className='interest'>-Watching movies and series. </div>
-        <div className='interest'>-Doing sport specially football.</div>
-        <div className='interest'>-Swimming</div>
-    </section> );
-}
- 
+  return (
+    <section className="container section">
+      <h2>Interests & Activities</h2>
+      <div className="interests-grid">
+        <div className="interest">🩸 Active member in Lebanese Red Cross</div>
+        <div className="interest">🎬 Watching movies and series</div>
+        <div className="interest">⚽ Playing team sports</div>
+        <div className="interest">💻 Technology and innovation</div>
+        <div className="interest">📚 Continuous learning and development</div>
+      </div>
+    </section>
+  );
+};
+
 export default Interests;
