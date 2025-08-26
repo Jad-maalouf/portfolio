@@ -289,10 +289,9 @@ a:hover{color:var(--accent); text-decoration:wavy}
 .informations p{ margin-top:0; margin-bottom: .5rem; font-size: var(--fs-md); line-height:1.6; color:var(--muted); font-style: italic;}
 
 /* label + value rows */
-.line{ display:flex; gap:.5rem; align-items:flex-start; margin-bottom:.4rem; flex-wrap:wrap }
+.line{ display:flex; gap:.5rem; align-items:flex-start; margin-bottom:.4rem; flex-wrap:wrap;}
 .info-labels{ min-width:120px; font-weight:700; color:var(--muted); display:inline-block }
 .text{ color:var(--muted) }
-.mails a{ color:var(--primary); font-weight:600 }
 .remove{ opacity:.85; color:var(--muted); cursor:pointer; font-size:var(--fs-xs) }
 
 /* layout for very small screens */
@@ -312,7 +311,7 @@ a:hover{color:var(--accent); text-decoration:wavy}
     margin-bottom: 1rem;
   }
   .line { 
-    flex-direction: column; 
+    flex-direction: row; 
     gap: .2rem; 
     align-items: flex-start;
   }

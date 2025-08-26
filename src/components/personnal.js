@@ -22,16 +22,7 @@ const Personnal = () => {
 
           <div className="line">
             <span className="info-labels">Email:</span>
-            <div className="text">
-              <div>
-                <a href="mailto:almaaloufjad@gmail.com" className="mails">
-                  almaaloufjad@gmail.com, &nbsp;
-                </a>
-                <a href="mailto:jad12maalouf@gmail.com" className="mails">
-                  jad12maalouf@gmail.com
-                </a>
-              </div>
-            </div>
+            <div className="text">almaaloufjad@gmail.com</div>
           </div>
 
           <div className="line">
@@ -41,9 +32,7 @@ const Personnal = () => {
 
           <div className="line">
             <span className="info-labels">Location:</span>
-            <span className="text">
-              Dekwaneh-MarRoukouz Lebanon, Jezzine South Lebanon
-            </span>
+            <span className="text">Dekwaneh-MarRoukouz, Lebanon</span>
           </div>
 
           <div className="line">

@@ -17,7 +17,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setMenu(true);
-    }, 1000); // Reduced from 13 seconds to 3 seconds for better UX
+    }, 1000);
     return () => clearTimeout(timer);
   }, []);
 
