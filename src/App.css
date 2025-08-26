@@ -172,7 +172,7 @@ a:hover{color:var(--accent); text-decoration:wavy}
     display: none;
   }
   .visit {
-    padding: .45rem .7rem;
+    /* padding: .45rem .7rem; */
     font-size: var(--fs-xs);
     min-width: fit-content;
   }
@@ -184,7 +184,7 @@ a:hover{color:var(--accent); text-decoration:wavy}
     gap: .3rem;
   }
   .visit {
-    padding: .4rem .6rem;
+    /* padding: .4rem .6rem; */
     font-size: var(--fs-xxs);
   }
 }
