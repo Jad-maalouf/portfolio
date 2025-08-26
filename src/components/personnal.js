@@ -5,21 +5,19 @@ const Personnal = () => {
   return (
     <section className="container section">
       <div className="personnal-section">
-        <div>
+        <div className="profile-container">
           <img src={profile} alt="Jad ALMaalouf Profile" className="profile" />
         </div>
         <div className="informations">
           <h2>About Me</h2>
-          <p>
+          <p className="about-me-text">
             Passionate Full Stack Software Engineer with expertise in modern web
             technologies and strong problem-solving abilities.
           </p>
 
           <div className="line">
             <span className="info-labels">Name:</span>
-            <span className="text">
-              <strong>Jad AlMaalouf</strong>
-            </span>
+            <span className="text">Jad AlMaalouf</span>
           </div>
 
           <div className="line">
